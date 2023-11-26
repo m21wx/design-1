@@ -1,0 +1,517 @@
+*{
+	padding:0;
+	margin:0;
+    box-sizing: border-box;
+}
+body{
+  background-color: #d2d9e4;
+  
+}
+.scrollBar{
+	position: fixed;
+    z-index: 999;
+    bottom: 100px;
+    right: 0;
+    background: red;
+    padding: 10px 10px;
+    border-radius: 20px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+	display:none;
+}
+.continer{
+		padding:20px;
+		width: 90%;
+		margin: 10px auto;
+		
+		
+}
+.Design-1{
+	background-color: #eee;	
+
+
+}
+/*  Start Form-Design-1  */
+.Design-1 .Form-Design{
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 1px #ccc;
+    min-width: 290px;
+    max-width: 1200px;
+    margin: auto;
+}
+.Design-1 h2{
+    margin: 30px 50px 0;	
+}
+.Design-1 .box-form{
+    display: flex;
+    margin: 50px 0 0;
+ 
+}
+.Design-1 .box-form .form-1{
+	    flex: 1;
+}
+.Design-1 .box-form .form-1 .suerinput{
+    margin: 10px 0;
+	padding:5px 10px;
+    display: flex;
+    flex-direction: row;
+	align-items: center;
+}
+.Design-1 .box-form .form-1 .suerinput span{
+	font-size: 30px;
+}
+.Design-1 .box-form .form-1 input{
+    padding: 10px;
+    outline: none;
+    border: 1px solid #eee;
+    flex: 1;
+    border-radius: 5px;
+	margin-left:4px;
+}
+.Design-1 .box-form .form-1 button{
+    padding: 10px;
+    width: 30%;
+    margin: 20px auto;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    background-color: #25ac25ba;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 3s;
+}
+.Design-1 .box-form .form-1 button:hover{
+	 background-color: #02f602;
+}
+.Design-1 .box-form .images{
+    flex: 1;
+}
+.Design-1 .box-form .images img{
+    width: 100%;
+    height: 100%;
+	flex: 1;
+}
+.Design-1 .Form-Design .dome{
+	 margin-top: 30px;
+    border-top: 2px solid #eee;
+    padding: 10px 0;
+} 
+.Design-1 .Form-Design .dome >p{
+	font-size: 25px;
+    margin: 5px 0;
+    font-weight: bold;
+}  
+@media( max-width:600px){
+	.Design-1 .box-form{
+		display: flex;
+		flex-direction: column-reverse;
+		}
+
+}
+/*  End Form-Design-1  */
+
+/* Start Form-Design-2 */
+.Design-2{
+	  background-color:#8fc4b7;
+
+}
+.Design-2 .Form-Design-2{
+	background-color:#fff;
+	min-width: 290px;
+    max-width: 1200px;
+	margin : 0 auto;
+	
+}
+.Design-2 .Form-Design-2 img{
+	width:100%;
+
+}
+.Design-2 .Form-Design-2 h2{
+	
+	color:#008000;
+}
+.Design-2 .Form-Design-2 .box{
+	 display: flex;
+    flex-direction: column;
+	padding:20px;
+
+}
+.Design-2 .Form-Design-2 .box input ,select{
+    outline: none;
+    border: #008000 1px solid;
+    padding: 10px;
+    margin: 10px 0;	
+}
+.Design-2 .Form-Design-2 .box .selct{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.Design-2 .Form-Design-2 .box .selct input ,select{
+	flex:1;
+}
+.Design-2 .Form-Design-2 .box select option{
+
+}
+.Design-2 .Form-Design-2 button{
+	 outline: none;
+    border: #008000 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    min-width: 200px;
+    max-width: 250px;
+    margin: 15px auto 4px;
+    cursor: pointer;
+	 background-color: #d2d9e4;
+	 color:#fff;
+	 font-size:25px;
+	 font-weight:bold;
+}
+
+/* End Form-Design-2 */
+
+/*  Start textarea-Design-3  */
+.Design-3 {
+    background-color: #0000003d;
+}
+.Design-3 .textarea-Design {
+	  background: #ffffff9e;
+	  max-width: 1200px;
+	  margin:0 auto;
+	  padding:20px;
+}
+.Design-3 .textarea-Design .serviceTextArea {
+	list-style: none;
+    display: flex;
+    min-height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px solid #008000;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+}
+.Design-3 .textarea-Design .serviceTextArea li {
+	    cursor: pointer;
+}
+@media(max-width:450px){
+	.Design-3 .textarea-Design .serviceTextArea{
+		    flex-direction: column;
+	}
+	.Design-3 .textarea-Design .serviceTextArea li{
+		margin:8px 0;
+	}
+}
+.Design-3 .textarea-Design textarea {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 250px;
+    resize: none;
+    padding: 20px;
+    border: 1px solid #008000;
+    outline: none;
+    text-indent: 50px;
+    line-height: 1.8;
+}
+.Design-3 .textarea-Design  button {
+  border: 1px solid #008000;
+    padding: 10px 20px;
+    outline: none;
+    border-radius: 8px;
+    text-align: center;
+    float: right;
+    cursor: pointer
+}
+.Design-3 .textarea-Design .valueTextarea {
+	border-top:1px solid #008000;
+	margin-top:20px;
+    overflow: hidden;
+}
+
+/*  End textarea-Design-3  */
+
+/* Start Date-Design-4   */
+.Design-4 {
+    background-color: crimson;
+}
+.Design-4 .box-input{
+	text-align: center;
+}
+.Design-4 .box-input  input{
+	 outline: none;
+    padding: 8px 10px;
+    width: calc(80% / 3);
+    margin: 5px 5px;
+    border: 1px solid #009688;
+    background-color: #000c;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+   padding: 8px 10px;
+}
+.Design-4 .box-input  button{
+    border: 1px solid #009688;
+    background-color: #000c;
+    color: #fff;
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px 10px;
+	cursor: pointer;
+}
+@media(max-width:450px){
+	.Design-4 .box-input  input{
+		display: block;
+		margin: 10px auto;
+		width: 50%;
+	}
+	.Design-4 .box-input  button{
+		width: 50%;
+	}
+}
+.Design-4 .box-text{
+    padding: 10px;
+    color: #fff;
+    font-size: 25px;
+    text-align: center;
+    margin: 20px 0 30px;
+    border-top: 2px solid #fff;
+}
+.Design-4 .box-text span{
+	
+}
+
+
+
+/* End Date-Design-4   */
+
+/* Start clock-Design-5  */
+
+.Design-5{
+    background-color: darkgreen;
+	height: 400px;	
+}
+.Design-5 .seClac{
+	
+    height:100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;	
+}
+.Design-5 .seClac .clock{
+    background-image: url(./images/clock-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    position: relative;
+	 outline: 5px solid #000;
+}
+.Design-5 .seClac .clock:after{
+    content: '';
+    height: 10px;
+    position: absolute;
+    width: 10px;
+    background-color: currentcolor;
+    left: 50%;
+    top: 50%;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 5;
+}
+.Design-5 .seClac .clock .hours,.minutes,.seconds{
+    height: 3px;
+    background-color: #000;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform-origin: 0;
+}
+.Design-5 .seClac .clock .hours{
+		width: 35%;
+}
+.Design-5 .seClac .clock .minutes{
+		width: 40%;
+		background-color:green;
+}
+.Design-5 .seClac .clock .seconds{
+		width: 45%;
+		background-color:red;
+}
+
+/* End clock-Design-5  */
+
+/* Start slider-Design-6 */
+.Design-6{
+	 background: #ccc;
+  
+}
+.Design-6 .slider-Design{
+    position: relative;
+}
+.Design-6 .slider-Design .slider-Number{
+    position: absolute;
+    left: 4px;
+    top: 3px;
+    z-index: 5;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+}
+.Design-6 .slider-Design .images{
+    height: 400px;
+}
+.Design-6 .slider-Design .images img{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: none;
+}
+.Design-6 .slider-Design .images .active{
+	display: block;
+}
+.Design-6 .slider-Design .control{
+	position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 5;
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+    cursor: pointer;
+    background: #fff;
+    height: 42px;
+    width: 42px;
+    border-radius: 50%;
+    text-align: center;
+	line-height: 1;
+}
+.Design-6 .slider-Design .left{
+	 left: 0px;
+}
+.Design-6 .slider-Design .right{
+    right: 0px;
+}
+
+
+/* End slider-Design-6 */
+
+
+/* Start images-Design-7 */
+.Design-7{
+	  background-color: #fff;
+}
+.Design-7 .View-images-Design{
+	
+}
+
+.Design-7 .View-images-Design .Choose-a-picture{
+	display: flex;
+
+}
+.Design-7 .View-images-Design .Choose-a-picture img{
+    width: calc(100% / 3);
+	cursor: pointer;
+	margin: 0 3px;
+}
+.Design-7 .View-images-Design .View-images{
+	height: 500px;
+	margin: 10px 0;
+}
+.Design-7 .View-images-Design .View-images img{
+	height:100%;
+	width:100%;
+	
+}
+@media( max-width:500px){
+	.Design-7 .View-images-Design .Choose-a-picture{
+		    flex-direction: column;
+	}
+	.Design-7 .View-images-Design .Choose-a-picture img{
+		width: 100%;
+		margin: 3px 0;
+	}
+		
+}
+
+/* End images-Design-7 */
+
+/* Start sliderTabs-Design-8 */
+.Design-8 {
+    background-color: #000;
+}
+.Design-8 .sliderTabs{
+	
+}
+.Design-8 .sliderTabs .navSliderTabs{
+	background: #ccc;
+    height: 50px;
+    display: flex;
+    border-radius: 20px	
+}
+.Design-8 .sliderTabs .navSliderTabs button{
+    flex: 10%;
+    border: none;	
+}
+.Design-8 .sliderTabs .navSliderTabs ul{
+	 height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 10px;
+    flex: 90%;
+    overflow-x: scroll;	
+}
+.Design-8 ul::-webkit-scrollbar{
+	display:none;
+}
+.Design-8 .sliderTabs .navSliderTabs ul li{
+	 display: inline-block;
+    list-style: none;
+    background: #fff;
+    padding: 10px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+
+/* End sliderTabs-Design-8 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media( max-width:400px){
+	body{
+		padding:10px 8px;
+	}
+	.continer {
+		width: 100%;
+		padding:20px 5px;
+		margin:20px 0;
+		
+		}
+		
+		
+}
